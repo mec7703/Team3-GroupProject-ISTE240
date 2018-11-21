@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Linux</title>
     
-    <link rel="stylesheet" type="text/css" href="proj.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/proj.css" />
 </head>
 <body>
 	<header>
@@ -19,7 +19,7 @@
             <div class="left">
                 <div class="leftcontent" id="leftcontent1">
                     <h1>LEARN LINUX</h1>
-                    <p>bghj uikmn bhuikmnb huknbh hjnbh jhhj s daksnf wu fpalnc eiru vlsdn gurhoaks vureid fughjldjsldf ewoifsd e d fewijds foewoi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <br />
                     <a href="#">DOWNLOAD</a>
                 </div>
@@ -68,7 +68,7 @@
     </div>
     <div class="section" id="sec3">
         <h2>OUR PROJECT</h2>
-        <p>shbdsa sdkjfhjoe sksdjfnio rnrjnsdio nfkdf ejvnj fksbvsdjc ljhfg sdbvibd nmnvfvjsd vkjbeh sdnnf dj fnfjej jd sovbej  eknv wekjvbj dsa sdkjfhjoe sksdjfnio rnrjnsdio nfkdf ejvnj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvj fksbvsdjc ljhfg sdbvibd nmnvfvjsd vkjbeh sdnnf dj fnfjej jd sovb knv</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="parallax" id="parallax3">
         <!--space holder-->
