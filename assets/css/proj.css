@@ -104,15 +104,12 @@ body {
     }
 }
 
-h1{
-    color: white;
-}
 
 h2{
     text-align: left;
     text-decoration: none;
     font-size: 110%;
-    color: #FFB6B9;
+    color: white;
 }
 
 .links{
@@ -256,8 +253,10 @@ div.sticky {
 }
 
 .logo{
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
     position: fixed;
+    width: 200px;
     z-index: 1;
 }
 
@@ -276,7 +275,7 @@ video{
 @media(max-width:767px) {
 .sticky-logo-handler {
         display: block;
-        padding-left: 0
+        padding-left: 5px;
     }
 }
 
@@ -319,24 +318,24 @@ hr{
 
 /* specify font stylings for entire site*/
 h1 { 
-    font-family: "Helvetica Neue"; font-size: 47px; 
+    font-family: "Helvetica"; font-size: 47px; 
     font-style: normal; 
     font-variant: small-caps; 
-    font-weight: 100; 
-    line-height: 51.7px; 
+    font-weight: 300; 
+    margin-bottom: 0;
+    color: #696969;
 } 
 
 h3 { 
-    font-family: "Helvetica Neue"; font-size: 14px; 
+    font-family: "Helvetica"; font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
-    line-height: 15.4px; 
     color: #FFB6B9;
 } 
 
 p { 
-    font-family: "Helvetica Neue"; font-size: 14px; 
+    font-family: "Helvetica"; font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
@@ -350,7 +349,7 @@ p {
 }
 
 blockquote { 
-    font-family: "Helvetica Neue"; font-size: 21px; 
+    font-family: "Helvetica"; font-size: 21px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
@@ -367,12 +366,6 @@ blockquote {
 img{
     width: 100px;
     height:auto;
-}
-
-.title{
-    color: #61C0BF;
-    text-align: center;
-    
 }
 
 .sum{
@@ -405,11 +398,6 @@ hr{
     color: darkgrey;
 }
 
-/*mini titles*/
-h2{
-    text-align: center;
-    margin-top: 10px;
-}
 
 #head{
     text-align: center;
@@ -467,7 +455,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/room.png");
 }
 
 #parallax2{
@@ -478,12 +466,21 @@ body{
     height: 35%;
 }
 
-h1{
-    margin-top: 0;
+#mini{
+    text-align: left;
+    font-weight: 300;
+    padding-bottom: 2px;
+}
+
+#title{
+    text-align: left;
+    color: #696969;
 }
 
 h2{
     margin-top: 0;
+    text-align: center;
+    font-size: 300%;
 }
 
 .section{
@@ -492,7 +489,7 @@ h2{
 }
 
 #sec1{
-    opacity: .75;
+    opacity: .90;
     color: white;
 }
 
@@ -530,7 +527,7 @@ h2{
 }
 
 #sec4 a{
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
     color: white;
 }
@@ -552,10 +549,6 @@ h2{
     overflow: hidden;
 }
 
-#leftcontent1 h1{
-    font-size: 5em;
-    margin-bottom: 0;
-}
 
 #leftcontent1 a{
     font-size: 1.5em;
@@ -563,13 +556,7 @@ h2{
     color: white;
 }
 
-#leftcontent2 h1{
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 3em;
-    margin-bottom: 0;
-}
+
 
 #leftcontent2 p{
     font-size: 2em;
