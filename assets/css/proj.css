@@ -9,12 +9,7 @@ body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 40px;
-}
-
-/*map */
-#map {
-    width:400px;
-    height:400px;
+    height:70px;
 }
 
 .navbar a {
@@ -25,6 +20,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     margin-right: 20px;
+    padding-top:25px;
 }
 
 @media screen and (max-width: 400px) {
@@ -147,9 +143,6 @@ h2{
   width: 190%;
 }
 
-.chrismap{
-    width: 100%; 
-}
 
 .attract{
     color: dimgray;
@@ -195,6 +188,7 @@ a:hover{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    padding-top:25px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -246,10 +240,10 @@ div.sticky {
 }
 
 .logo{
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
     position: fixed;
-    width: 200px;
+    width: 150px;
     z-index: 1;
 }
 
