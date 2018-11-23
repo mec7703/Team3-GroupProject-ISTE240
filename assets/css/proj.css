@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: "Helvetica-Neue", sans-serif;
-    color: #999999;
+    font-family: "Helvetica", sans-serif;
+    color: dimgray;
 }
 
 .navbar {
@@ -20,7 +20,7 @@ body {
 .navbar a {
     float: right;
     font-size: 16px;
-    color: #999999;
+    color: dimgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,7 +42,7 @@ body {
         font-size: 16px;    
         border: none;
         outline: none;
-        color: #999999;
+        color: dimgray;
         padding: 14px 16px;
         background-color: inherit;
         font-family: inherit;
@@ -119,12 +119,6 @@ h2{
     
 }
 
-/*cpecial CSS for form page*/
-.form{
-    background-color: #61C0BF;
-    color: white;
-   
-}
 
 .special{
     text-align: center;
@@ -158,7 +152,7 @@ h2{
 }
 
 .attract{
-    color: gray;
+    color: dimgray;
     
 }
 
@@ -178,7 +172,7 @@ iframe{
 }
 
 a{
-    color: #999999;
+    color: dimgray;
 }
 
 a:hover{
@@ -196,7 +190,7 @@ a:hover{
     font-size: 16px;    
     border: none;
     outline: none;
-    color: #999999;
+    color: dimgray;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -205,13 +199,13 @@ a:hover{
 
 .navbar a:hover, .dropdown:hover .dropbtn {
     font-weight: bold;
-    color: #FFB6B9;
+    color: #638da6;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -219,7 +213,7 @@ a:hover{
 
 .dropdown-content a {
     float: none;
-    color: #808080;
+    color: dimgray;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -227,7 +221,7 @@ a:hover{
 }
 
 .dropdown-content a:hover {
-   color: #FFB6B9;
+   color: #638da6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -237,10 +231,9 @@ a:hover{
 div.sticky {
     position: sticky;
     top: 0;
-    background-color: yellow;
     padding: 50px;
     font-size: 20px;
-    box-shadow: 50px 50px gray;
+    box-shadow: 50px 50px dimgray;
 }
 
 .sticky-logo-handler {
@@ -342,11 +335,6 @@ p {
     line-height: 20px; 
 } 
 
-.price{
-    text-align: left;
-    color: #4BBCF4;
-    font-size: 70%;
-}
 
 blockquote { 
     font-family: "Helvetica"; font-size: 21px; 
@@ -368,25 +356,6 @@ img{
     height:auto;
 }
 
-.sum{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background-color: #BBDED6;
-    color: white;
-}
-
-.pic{
-    width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
-    height: auto;
-    border-style: solid;
-    border-color: #FAE3D9;
-}
-
-
 /*create the border around the content*/
 
 footer{
@@ -395,7 +364,7 @@ footer{
 }
 
 hr{
-    color: darkgrey;
+    color: dimgray;
 }
 
 
