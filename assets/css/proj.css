@@ -10,6 +10,8 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 40px;
     height:70px;
+    z-index: 1;
+    position: fixed;
 }
 
 .navbar a {
@@ -376,11 +378,19 @@ shrink the navigation bar horizonatlly*/
         position: relative;
         position: sticky;
         top: 0;
-
         display:inline-block;
         margin-bottom: 100px;
         z-index: 1;
     }
+    
+     .right li{
+        font-size: 30%;
+    }
+    
+    .list p{
+        font-size: 30%;
+    }
+    
 }
 
 /*media query for screen size maximum 780
@@ -391,6 +401,18 @@ makes the navigation bar vertical instead of horizontal*/
         float: none;
         position: sticky;
         top: 0;
+    }
+    
+    #sec1{
+          width: 170%;
+    }
+    
+    .right li{
+        font-size: 30%;
+    }
+    
+    .right p{
+        font-size: 30%;
     }
     
 
@@ -408,7 +430,7 @@ body{
     height: 100%;
     font-family: helvetica, sans-serif;
     background-color: #f8f8f8;
-    color: #757575;
+    color: dimgray;
 }
 
 
@@ -429,15 +451,23 @@ body{
     height: 35%;
 }
 
-#mini{
+.mini{
     text-align: left;
-    font-weight: 300;
-    padding-bottom: 2px;
+    color: white;
+    font-size: 300%;
 }
 
-#title{
+.download{
     text-align: left;
-    color: #696969;
+    color: dimgray;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.title{
+    text-align: left;
+    color: dimgray;
+    font-size: 500%;
 }
 
 h2{
@@ -532,6 +562,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    padding-right: 20px;
 }
 
 .right ul{
@@ -551,6 +582,20 @@ h2{
 .right ul li{
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.right p{
+    font-size: 24px;
+    line-height: normal;
+    color:#638da6;
+    font-weight: 100;
+}
+
+p{
+     font-size: 24px;
+    line-height: normal;
+    color:white;
+    font-weight: 100;
 }
 
 footer{
