@@ -77,7 +77,7 @@
         <a href="#">Back to Top &#8593;</a>
     </div>
     <footer>
-        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
+        <p class="footer">@2018 Team 3 Final Project | Web and Mobile II</p>
     </footer>
 </body>
 </html>
