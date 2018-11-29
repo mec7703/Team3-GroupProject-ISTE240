@@ -4,7 +4,7 @@
 
 <footer> 
 
-        <p id="company_name">Matts Pizza &reg;</p>
+        <p id="company_name">Team 3 Final Project &reg;</p>
 
 
         <?php
