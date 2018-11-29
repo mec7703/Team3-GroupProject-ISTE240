@@ -391,6 +391,12 @@ shrink the navigation bar horizonatlly*/
         font-size: 30%;
     }
     
+    .review{
+	    width: 100%;
+        margin-right: 5px;
+	    margin-left: 5px;
+    }
+    
 }
 
 /*media query for screen size maximum 780
