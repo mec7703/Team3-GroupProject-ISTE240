@@ -63,8 +63,52 @@ body {
     padding-bottom: 5px;
 }
 
+.quizbox{
+    background-color: #638da6;
+    width: 100%;
+    height: auto;
+}
+
+.quizbox h4{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+textarea{
+    width: 80%;
+    height: auto;
+}
+
+.progress {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:  white;
+}
+.grid-item1 {
+  background-color: #e0eaf0;
+  padding: 20px;
+    color: dimgray;
+    text-align: center;
+}
+
+.review{
+	text-align: center;
+    padding-bottom: 10px;
+}
+
+.review h4{
+    text-align: left;
+}
+
 .row2 {
     margin: 8px -16px;
+}
+
+.comment{
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 /* Add padding BETWEEN each column */
