@@ -10,8 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 40px;
     height:70px;
-    z-index: 1;
-    position: fixed;
 }
 
 .navbar a {
@@ -59,6 +57,12 @@ body {
     }
 }
 
+.dec{
+    color: #638da6;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
 .row2 {
     margin: 8px -16px;
 }
@@ -72,7 +76,7 @@ body {
 /* Create four equal columns that floats next to each other */
 .column2 {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 /* Clear floats after rows */ 
@@ -85,8 +89,9 @@ body {
 /* Content */
 .content2 {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -273,8 +278,8 @@ video{
 }
 
 hr{
-    	margin-bottom: 50px;
-	margin-top: 25px;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -317,11 +322,19 @@ h1 {
 } 
 
 h3 { 
-    font-family: "Helvetica"; font-size: 14px; 
+    font-family: "Helvetica"; font-size: 30px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
-    color: #FFB6B9;
+    color: #638da6;
+} 
+
+h4 { 
+    font-family: "Helvetica"; font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 300; 
+    color: dimgray;
 } 
 
 p { 
@@ -339,6 +352,14 @@ blockquote {
     font-variant: normal; 
     font-weight: 400; 
     line-height: 30px; 
+}
+
+.sumbit{
+    background-color: #638da6;
+    color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
 }
 
 .l-region--navigation .sticky-logo-handler img {
@@ -393,13 +414,14 @@ shrink the navigation bar horizonatlly*/
     }
     
     .review{
-	    width: 100%;
-        margin-right: 5px;
-	    margin-left: 5px;
-    }
-	hr{
+	width: 100%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+    
+    hr{
     margin-bottom: 5px;
-    margin-top: 5px;
+        margin-top: 5px;
 }
     
 }
@@ -618,3 +640,19 @@ footer p{
     font-size: 18px;
     text-align:center;
 }
+
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+    
+       ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        position: sticky;
+        top: 0;
+        display:inline-block;
+        margin-bottom: 100px;
+        z-index: 1;
+    }
