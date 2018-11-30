@@ -12,8 +12,57 @@
         require "navbar.html";
         ?>
         
-        
-    </header>
+   </header>
+    <div class="parallax" id="parallax1">
+        <div class="section" id="sec1">
+            <div class="left">
+                <div class="leftcontent" id="leftcontent1">
+                    <h2 class = "title">LEARNLNX</h2>
+                    <p>Learn and test your Linux knowledge with learnlnx</p>
+                    <br />
+                    <a class = "download" href="#">DOWNLOAD</a>
+                </div>
+            </div>
+            <div class="right">
+                <!--space holder-->
+            </div>
+        </div>
+    </div>
+    <div class="section" id="sec2">
+        <div class="left" id="left2">
+            <div class="leftcontent" id="leftcontent2">
+                <h2 class="mini">EXPLORE</h2>
+                <p class="download">OUR SITE</p>
+            </div>
+        </div>
+        <div class="right">
+            <ul id="left-list">
+                <div>
+                    <li>ABOUT</li>
+                    <p>Learn about what Linux is, its purpose and its different components</p>
+                </div>
+                <div>
+                    <li>BUILD SCRIPTS</li>
+                    <p>Learn what it is and how to create your own</p>
+                </div>
+                <div>
+                    <li>DOWNLOAD</li>
+                    <p>Instructions for how to download Linux on your local machine</p>
+                </div>
+            </ul>            
+            <ul id="right-list">
+                <div>
+                    <li>COMMAND TUTORIALS</li>
+                    <p>Learn and then test your knwoledge on Linux commands</p>
+                </div>
+                <div>
+                    <li>DISTRIBUTIONS</li>
+                    <p>Know your options and pick the one that's right for you </p>
+                </div>
+            </ul>
+        </div>
+    </div>
+
   <div class="parallax" id="parallax2">
         <!--space holder-->
     </div>
