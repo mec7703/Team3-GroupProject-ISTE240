@@ -12,13 +12,14 @@
         require "navbar.html";
         ?>
     </header>
-    <h2>Navigation</h2>
+        <h2>Beginner Linux Commands</h2>
+    <h3>Navigation</h3>
         <ul>
             <li>pwd - Outputs the absolute path to a directory </li>
             <li>cd [path] - Goes to a specific given path. ex: cd Desktop (Goes to users dekstop if in the home directory) </li>
             <li>ls [directory] - outputs the files and folders in the given directory. If no directory given, assumes the working directory </li>
         </ul>
-    <h2>File Manipulation</h2>
+    <h3>File Manipulation</h3>
         <ul>
             <li>mv [filename] [destination] - Moves a desired file to the specified destination. Can also take a second file as an argument in place of a destination to overwrite the file</li>
             <li>cp [filetocopy] [destination to copy file to] - Copies the specified file to the specified directory
@@ -28,18 +29,18 @@
             <li>chmod [permission value] - change the permission of a given file or directory. Changes the read, write, and execute permissions depending on the value given</li>
             <li>touch [filename] - creates a file of any type</li>
         </ul>
-    <h2>Application</h2>
+    <h3>Application</h3>
         <ul>
             <li>Cat [filename] - shows the content of a file</li>
             <li>Nano [filename] - opens a tex editor for a file with the given name </li>
         </ul>
-    <h2>Key "Shortcuts"</h2>
+    <h3>Key "Shortcuts"</h3>
         <ul>
             <li>clear - enter into terminal to clear the terminal</li>
             <li>Ctrl+C - stops any command/process that is currently running in the terminal</li>
             <li>Ctrl+Z - force stops the current action/command</li>
-             </ul>
-    <h2>Misc. Commands</h2>
+        </ul>
+    <h3>Misc. Commands</h3>
         <ul>
             <li>exit - exits the terminal window</li>
             <li>sudo halt - shuts down the </li>
