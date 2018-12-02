@@ -2,15 +2,15 @@
 var questionNum = 1;
 
 function checkAns(){
-    var key = document.getElementById('#question').innerHTML;
+    var key = document.getElementById('question').innerHTML;
     var correctAns = quiz[key];
-    var givenAns = document.getElementById('#answer').val();
+    var givenAns = document.getElementById('answer').val();
     if(correctAns===givenAns){
 		console.log("correct");
-        document.getElementById('#correct').style.display = "block";
+        document.getElementById('correct').style.display = "block";
     }else{
 		console.log("wrong");
-        document.getElementById('#incorrect').style.display = "block";
+        document.getElementById('incorrect').style.display = "block";
 	}
 	delete quiz[key];
     
