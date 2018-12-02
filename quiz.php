@@ -18,8 +18,6 @@
     $path = "./";
     require $path."../../../dbConnect.inc";
 
-    session_start();
-
     //get quiz stuff from the database
     $stmt = "SELECT question,answer FROM quiz";
     $result = $mysqli->query($stmt);
@@ -49,9 +47,6 @@
             $quiz = array_merge($quiz, $new_input);//merge arrays to add to final quiz array
             $i++;
         }
-
-    //store quiz questions/answers in session var
-    $_SESSION['quiz']=$quiz;
     }?>
     
 <div class="container">
@@ -63,25 +58,26 @@
         </div>
         <h4>Question: </h4>
         <br>
-        <p>
+        <p id="question">
             <?php //pop a question/answer set from the array and echo question
             $value = reset($quiz);
             $key = key($quiz);
-            unset($quiz[$key]);
-            echo $key; 
+            echo $key;
             ?>
         </p>
         
+		<script type="text/javascript">var quiz = <?php echo json_encode($quiz); ?></script>
+		
         <div class="review">
             <h4>Your Answer</h4><br>
             <!--get input from user and add to the database-->
-            <textarea id="answer" name="<?php echo $value; ?>" cols="99" rows="10">
+            <textarea id="answer" name="answer" cols="99" rows="10">
             </textarea><br>
             <button id="checkAns" onclick="checkAns()">Check Answer</button>
             <button id="next" onclick="next()" style="display: none">Next Question</button>
             <button id="retry" onclick="window.location.reload()" style="display: none">Another Quiz</button>
         </div>
-        <div id="correct" style="display:none"><p class=reviewAns>Correct</p></div>
+        <div id="correct" style="display:none"><p class="reviewAns">Correct</p></div>
         <div id="incorrect" style="display:none">
             <p class="reviewAns">Incorrect: Answer is <?php echo $value; ?></p>
         </div>
