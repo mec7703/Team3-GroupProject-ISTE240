@@ -32,7 +32,7 @@
 <body>
 	<header>
        <?php 
-        require "assets/inc/navbar.php";
+        require "assets/inc/navbar.html";
         ?>
     </header>
     
