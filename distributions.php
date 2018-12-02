@@ -11,6 +11,7 @@
        <?php 
         require "navbar.html";
         ?>
+	</header>
   
   </body>
 </html>
