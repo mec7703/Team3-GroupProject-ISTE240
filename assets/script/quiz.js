@@ -1,18 +1,18 @@
+
 var questionNum = 1;
 
 function checkAns(){
-    var correctAns = $('#answer').attr("name");
+    var key = $('#question').innerHTML;
+    var correctAns = quiz[key];
     var givenAns = $('#answer').val();
-    console.log(correctAns + " : " + givenAns);
-    if(correctAns===givenAns){
-        console.log("correct");
+    if(correctAns.match(givenAns)){
+		console.log("correct");
         $('#correct').show;
     }else{
-        console.log("wrong");
-        console.log(questionNum);
-        //$('#incorrect').show;
-        document.getElementById("incorrect").style.display = "block";
-    }
+		console.log("wrong");
+		$('#incorrect').show;
+	}
+	delete quiz[key];
     
 //    console.log(questionNum);
     if (questionNum != 3){
@@ -38,6 +38,9 @@ function next(){
         //hide last answer
         document.getElementById("incorrect").style.display = "none";
         document.getElementById("correct").style.display = "none";
+		//fill new question
+		var next = Object.keys(quiz);
+		document.getElementById("question").innerHTML = next[0];
         //update question counter
         questionNum = 2;
     }else if (questionNum == 2){
@@ -53,6 +56,9 @@ function next(){
         //hide last answer
         document.getElementById("incorrect").style.display = "none";
         document.getElementById("correct").style.display = "none";
+		//fill new question
+		var next = Object.keys(quiz);
+		document.getElementById("question").innerHTML = next[0];
         //update question counter
         questionNum = 3;
     }else{
