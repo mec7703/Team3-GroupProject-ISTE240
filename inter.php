@@ -9,7 +9,7 @@
 <body>
 	<header>
        <?php 
-        require "navbar.html";
+        require "assets/inc/navbar.html";
         ?>
  </header>
  
