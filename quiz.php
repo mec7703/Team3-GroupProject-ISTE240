@@ -58,15 +58,13 @@
         </div>
         <h4>Question: </h4>
         <br>
-        <p id="question">
-            <?php //pop a question/answer set from the array and echo question
-            $value = reset($quiz);
-            $key = key($quiz);
-            echo $key;
-            ?>
-        </p>
+		<?php //pop a question/answer set from the array and echo question
+		$value = reset($quiz);
+		$key = key($quiz);
+		echo "<p id='question'>".$key."</p>";
+		?>
         
-		<script type="text/javascript">var quiz = <?php echo json_encode($quiz); ?></script>
+		<script type="text/javascript">var quiz = <?php echo json_encode($quiz); ?>;</script>
 		
         <div class="review">
             <h4>Your Answer</h4><br>
@@ -79,7 +77,7 @@
         </div>
         <div id="correct" style="display:none"><p class="reviewAns">Correct</p></div>
         <div id="incorrect" style="display:none">
-            <p class="reviewAns">Incorrect: Answer is <?php echo $value; ?></p>
+            <p class="reviewAns">Incorrect: Answer is <text id="correctAns"><?php echo $value; ?></text></p>
         </div>
     </div>
   
