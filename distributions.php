@@ -235,9 +235,8 @@
             </div>
 
         <footer>
-            <p><em>Individual Midterm Project</em><br/>
-  		    <em>Created by Emily Mills &copy;2018</em></p>
-        </footer>
+        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
+    </footer>
   
   </body>
 </html>
