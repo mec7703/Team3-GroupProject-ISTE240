@@ -4,7 +4,10 @@ var questionNum = 1;
 function checkAns(){
     var key = document.getElementById('question').innerHTML;
     var correctAns = quiz[key];
-    var givenAns = document.getElementById('answer').val();
+    var givenAns = document.getElementById('answer').value;
+	console.log(key);
+	console.log(givenAns);
+	console.log(correctAns);
     if(correctAns===givenAns){
 		console.log("correct");
         document.getElementById('correct').style.display = "block";
@@ -33,14 +36,6 @@ function next(){
         document.getElementById("grid-item1").innerHTML = "";
         document.getElementById("grid-item2").innerHTML = "66%";
         document.getElementById("grid-item2").style.backgroundColor = "#e0eaf0";
-        //hide next button
-        document.getElementById("next").style.display = "none";
-        //hide last answer
-        document.getElementById("incorrect").style.display = "none";
-        document.getElementById("correct").style.display = "none";
-		//fill new question
-		var next = Object.keys(quiz);
-		document.getElementById("question").innerHTML = next[0];
         //update question counter
         questionNum = 2;
     }else if (questionNum == 2){
@@ -51,14 +46,6 @@ function next(){
         document.getElementById("grid-item2").innerHTML = "";
         document.getElementById("grid-item3").innerHTML = "100%";
         document.getElementById("grid-item3").style.backgroundColor = "#e0eaf0";
-        //hide next button
-        document.getElementById("next").style.display = "none";
-        //hide last answer
-        document.getElementById("incorrect").style.display = "none";
-        document.getElementById("correct").style.display = "none";
-		//fill new question
-		var next = Object.keys(quiz);
-		document.getElementById("question").innerHTML = next[0];
         //update question counter
         questionNum = 3;
     }else{
@@ -66,6 +53,15 @@ function next(){
         questionNum = 1;
         //reset?
     }
+	//hide next button
+	document.getElementById("next").style.display = "none";
+	//hide last answer
+	document.getElementById("incorrect").style.display = "none";
+	document.getElementById("correct").style.display = "none";
+	//fill new question
+	var next = Object.keys(quiz);
+	document.getElementById("question").innerHTML = next[0];
+	document.getElementById("correctAns").innerHTML = quiz[next[0]];
 }
 
 function retry(){
