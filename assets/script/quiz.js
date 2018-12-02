@@ -2,15 +2,15 @@
 var questionNum = 1;
 
 function checkAns(){
-    var key = $('#question').innerHTML;
+    var key = document.getElementById('#question').innerHTML;
     var correctAns = quiz[key];
-    var givenAns = $('#answer').val();
+    var givenAns = document.getElementById('#answer').val();
     if(correctAns===givenAns){
 		console.log("correct");
-        $('#correct').show;
+        document.getElementById('#correct').style.display = "block";
     }else{
 		console.log("wrong");
-		$('#incorrect').show;
+        document.getElementById('#incorrect').style.display = "block";
 	}
 	delete quiz[key];
     
