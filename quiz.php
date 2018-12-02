@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/proj.css" />
 </head>
 <body>
-	<header><?php require "navbar.html"; ?></header>
+	<header><?php require "assets/inc/navbar.html"; ?></header>
     
 <?php
 
