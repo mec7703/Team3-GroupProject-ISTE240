@@ -166,14 +166,22 @@ h2{
     
 }
 
+.dist{
+    background-color: #638da6;
+}
+
+.para{
+    text-align: center;
+}
+
 
 .special{
     text-align: center;
 }
 /*end of special form page css*/
 
-.container:hover .overlay {
-  opacity: 0.9;
+.container{
+    height: 250px;
 }
 
 .row1 {
@@ -223,6 +231,9 @@ a:hover{
     font-weight: bold;
 }
 
+.overlay a{
+    text-align: center;
+}
 
 .dropdown {
     float: right;
@@ -371,6 +382,7 @@ h3 {
     font-variant: normal; 
     font-weight: 700; 
     color: #638da6;
+    text-align: center;
 } 
 
 h4 { 
@@ -379,6 +391,7 @@ h4 {
     font-variant: normal; 
     font-weight: 300; 
     color: dimgray;
+    text-align: center;
 } 
 
 p { 
@@ -549,6 +562,7 @@ body{
 
 h2{
     margin-top: 0;
+    padding-top: 5px;
     text-align: center;
     font-size: 300%;
 }
