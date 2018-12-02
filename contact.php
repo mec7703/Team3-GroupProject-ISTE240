@@ -9,7 +9,7 @@
 <body>
 	<header>
        <?php 
-        require "navbar.html";
+        require "assets/inc/navbar.html";
         ?>
   </header>
   <div class="parallax" id="parallax1">
