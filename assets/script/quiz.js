@@ -5,7 +5,7 @@ function checkAns(){
     var key = $('#question').innerHTML;
     var correctAns = quiz[key];
     var givenAns = $('#answer').val();
-    if(correctAns.match(givenAns)){
+    if(correctAns===givenAns){
 		console.log("correct");
         $('#correct').show;
     }else{
