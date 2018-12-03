@@ -17,7 +17,7 @@
     <?php require "assets/inc/navbar.html"; ?>
     
 </header>
-
+<div class="dist">
 <h2>Scripts</h2>
 <div class="row">
     <div class="column">
@@ -90,6 +90,7 @@
         </div>
     </div><!-- end column div -->
 </div><!-- end row div -->
+    </div>
 <script>
     showSlides(0,1,4,'scriptIndex');
 
