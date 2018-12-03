@@ -13,14 +13,14 @@
         ?>
         
    </header>
-    <div class="parallax" id="parallax1">
+     <div class="parallax" id="parallax1">
         <div class="section" id="sec1">
             <div class="left">
-                <div class="leftcontent" id="leftcontent1">
+              <div class="leftcontent" id="leftcontent1">
                     <h2 class = "title">LEARNLNX</h2>
                     <p>Explore the site to learn and test your Linux knowledge with learnlnx</p>
                     <br />
-                    <a class = "download" href="https://www.linux.org/pages/download/">DOWNLOAD</a>
+                    <a class = "download" href="#">DOWNLOAD</a>
                 </div>
             </div>
             <div class="right">
@@ -38,26 +38,26 @@
         <div class="right">
             <ul id="left-list">
                 <div>
-                    <li><a href="about.php">ABOUT</a></li>
+                    <li>ABOUT</li>
                     <p>Learn about what Linux is, its purpose and its different components</p>
                 </div>
                 <div>
-                    <li><a href="scripts.php">BUILD SCRIPTS</a></li>
+                    <li>BUILD SCRIPTS</li>
                     <p>Learn what it is and how to create your own</p>
                 </div>
                 <div>
-                    <li><a href="https://www.linux.org/pages/download/">CONTACT</a></li>
-                    <p>Sumbit your questions and join the online forum</p>
+                    <li>CONTACT</li>
+                    <p>Submit questions and join the forum</p>
                 </div>
             </ul>            
             <ul id="right-list">
                 <div>
-                    <li><a href="begin.php">COMMAND TUTORIALS</a></li>
+                    <li>COMMAND TUTORIALS</li>
                     <p>Learn and then test your knwoledge on Linux commands</p>
                 </div>
                 <div>
-                    <li><a href="distributions.php">DISTRIBUTIONS</a></li>
-                    <p>Know your options and dowload the version that's right for you </p>
+                    <li>DISTRIBUTIONS</li>
+                    <p>Know your options and pick the one that's right for you </p>
                 </div>
             </ul>
         </div>
@@ -68,7 +68,7 @@
     </div>
     <div class="section" id="sec3">
         <h2>OUR PROJECT</h2>
-        <p id="project">Our project is a Linux educational site that is deisgned for a wide range of user demographics to help them in developing a base understanding of Linux and its applications. </p>
+        <p class="ourproj">Our project is a Linux educational site that is deisgned for a wide range of user demographics to help them in developing a base understanding of Linux and its applications. Practice using commands and then test your knowledge or download Linux on your personal machine all on one site. Our site has a wide range of features that target beginner Linux users in both a professional and recreational field. Meet our contributors below. </p>
         <br>
            <div class="row2">
   <div class="column2">
