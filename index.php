@@ -46,8 +46,8 @@
                     <p>Learn what it is and how to create your own</p>
                 </div>
                 <div>
-                    <li><a href="https://www.linux.org/pages/download/">DOWNLOAD</a></li>
-                    <p>Instructions for how to download Linux on your local machine</p>
+                    <li><a href="https://www.linux.org/pages/download/">CONTACT</a></li>
+                    <p>Sumbit your questions and join the online forum</p>
                 </div>
             </ul>            
             <ul id="right-list">
@@ -57,7 +57,7 @@
                 </div>
                 <div>
                     <li><a href="distributions.php">DISTRIBUTIONS</a></li>
-                    <p>Know your options and pick the one that's right for you </p>
+                    <p>Know your options and dowload the version that's right for you </p>
                 </div>
             </ul>
         </div>
