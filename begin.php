@@ -222,5 +222,8 @@
     showSlides(0,11,13,'keyIndex');
     showSlides(0,14,16,'misIndex');
 </script>
+    <footer>
+        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
+    </footer>
 </body>
 </html>
