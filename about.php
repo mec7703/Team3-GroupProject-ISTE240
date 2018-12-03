@@ -48,7 +48,10 @@
                     </div>
         </div>  
     </div>
- 
+ 	
     </div>
+	<footer>
+        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
+    </footer>
   </body>
 </html>
