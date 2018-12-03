@@ -15,7 +15,7 @@
     <?php require "assets/inc/navbar.html"; ?>
     
 </header>
-
+<div class="dist">
 <h2>Beginner Linux Commands</h2>
 <div class="row">
     <div class="column">
@@ -214,6 +214,7 @@
         </div>
     </div><!-- end column div -->
 </div><!-- end row div -->
+ </div>
 <script>
     showSlides(0,1,3,'navIndex');
     showSlides(0,4,7,'manIndex');
