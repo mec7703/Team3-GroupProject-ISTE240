@@ -23,39 +23,6 @@ body {
     padding-top:25px;
 }
 
-@media screen and (max-width: 400px) {
-    .navbar a{
-       width: 100%; 
-    }
-    
-    .dropdown{
-        width: 100%;
-        text-align: center;
-        
-    }
-    
-    .dropdown .dropbtn {
-        font-size: 16px;    
-        border: none;
-        outline: none;
-        color: dimgray;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-        text-align: center;
-}
-    
-    .dropdown-content {
-        text-align: center;
-        width: 100%;
-}
-    
-    .dropdown-content a{
-        text-align: center;
-        padding-left: 100px;
-    }
-}
 
 .dec{
     color: #638da6;
@@ -427,6 +394,7 @@ h3 {
     font-weight: 700; 
     color: #638da6;
     text-align: center;
+    margin-bottom:2px;
 } 
 
 h4 { 
@@ -436,6 +404,7 @@ h4 {
     font-weight: 300; 
     color: dimgray;
     text-align: center;
+    margin-top: 1px;
 } 
 
 p { 
@@ -445,6 +414,10 @@ p {
     font-weight: 400; 
     line-height: 20px; 
 } 
+
+.ourproj{
+    text-align: center;
+}
 
 
 blockquote { 
@@ -639,10 +612,11 @@ h2{
 }
 
 #sec3 p{
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    text-align: left;
 }
 
 #sec4{
@@ -727,7 +701,7 @@ h2{
 }
 
 p{
-     font-size: 24px;
+    font-size: 24px;
     line-height: normal;
     color:white;
     font-weight: 100;
@@ -743,9 +717,9 @@ footer p{
     text-align:center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .column2 {
-        width: 100%;
+        width: 50%;
     }
     
        ul.sidenav {
@@ -758,3 +732,10 @@ footer p{
         margin-bottom: 100px;
         z-index: 1;
     }
+    
+    .title{
+        font-size: 300%;
+    }
+
+}
+
