@@ -181,6 +181,15 @@ h2{
     background-color: #638da6;
 }
 
+.tableWrap{
+    position: relative;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
 .para{
     text-align: center;
 }
@@ -192,7 +201,15 @@ h2{
 /*end of special form page css*/
 
 .container{
-    height: 250px;
+    margin: auto;
+    overflow: auto;
+}
+
+.container a img{
+    display: table-cell;
+    height: 10em;
+    width: auto;
+    margin: 1em;
 }
 
 .row1 {
@@ -739,3 +756,16 @@ footer p{
 
 }
 
+@media screen and (max-width: 600px){
+    .container a img{
+        width: 15em;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .container a img{
+        width: 10em;
+        height: auto;
+    }
+}
