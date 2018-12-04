@@ -88,6 +88,8 @@
         $filename = "quiz.php";
         require "assets/inc/footer.php";
    	?>
+	
+	<script src="assets/script/sidemenu.js"></script>
 </body>
     
 </html>
