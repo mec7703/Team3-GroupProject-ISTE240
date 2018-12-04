@@ -222,6 +222,7 @@
     showSlides(0,11,13,'keyIndex');
     showSlides(0,14,16,'misIndex');
 </script>
+    <script src="assets/script/sidemenu.js"></script>
     <<?php 
         $filename = "begin.php";
         require "assets/inc/footer.php";
