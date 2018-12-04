@@ -84,7 +84,10 @@
     </div>
   
 </div>
-
+	<?php 
+        $filename = "quiz.php";
+        require "assets/inc/footer.php";
+   	?>
 </body>
     
 </html>
