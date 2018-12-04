@@ -23,6 +23,60 @@ body {
     padding-top:25px;
 }
 
+/*start side nav*/
+@media(max-width: 940px){
+    .main-nav{
+        display: none;
+    }
+    
+    .side-nav{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+
+    .side-nav a{
+        width: 100%;
+        /*padding: 10px 0 10px 10%;*/
+        text-decoration: none;
+        font-size: 22px;
+        color: #638da6;
+        display: block;
+        transition: .3s;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .side-nav a:hover{
+        background-color: #e0eaf0;
+    }
+     
+    .side-nav .btn-close{
+        color : #638da6;
+        background-color: #e0eaf0;
+        font-weight: bolder;
+    }
+}
+
+@media(min-width: 940px){
+    .open-slide{
+        display: none;
+    }
+    
+    .side-nav{
+        display: none;
+    }
+}
+
+/*end side nav*/
+
 
 .dec{
     color: #638da6;
