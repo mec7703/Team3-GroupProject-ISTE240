@@ -58,33 +58,32 @@
         </div>
         <h4>Question: </h4>
         <br>
-		<?php //pop a question/answer set from the array and echo question
-		$value = reset($quiz);
-		$key = key($quiz);
-		echo "<p id='question'>".$key."</p>";
-		?>
+        <p id="question">
+            <?php //pop a question/answer set from the array and echo question
+            /*$value = reset($quiz);
+            //value does not change from beginning*/
+            $key = key($quiz);
+            echo $key;
+            ?>
+        </p>
         
-		<script type="text/javascript">var quiz = <?php echo json_encode($quiz); ?>;</script>
+		<script type="text/javascript">var quiz = <?php echo json_encode($quiz); ?></script>
 		
         <div class="review">
             <h4>Your Answer</h4><br>
             <!--get input from user and add to the database-->
-            <textarea id="answer" name="answer" cols="99" rows="10">
-            </textarea><br>
+            <textarea id="answer" name="answer" cols="99" rows="10" placeholder="Enter your answer here"></textarea><br>
             <button id="checkAns" onclick="checkAns()">Check Answer</button>
             <button id="next" onclick="next()" style="display: none">Next Question</button>
             <button id="retry" onclick="window.location.reload()" style="display: none">Another Quiz</button>
         </div>
         <div id="correct" style="display:none"><p class="reviewAns">Correct</p></div>
         <div id="incorrect" style="display:none">
-            <p class="reviewAns">Incorrect: Answer is <text id="correctAns"><?php echo $value; ?></text></p>
+            <p id="reviewAns"></p>
         </div>
     </div>
   
 </div>
-	<footer>
-        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
-    </footer>
 
 </body>
     
