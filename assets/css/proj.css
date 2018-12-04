@@ -30,6 +30,20 @@ body {
     padding-bottom: 5px;
 }
 
+/*start link to quiz button*/
+#takeQuiz{ /*div around link*/
+    padding: 1em;
+/*    border: solid 2px black;*/
+    background-color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#takeQuiz h3 a{ /*link*/
+    color: #638da6;
+}
+/*end link to quiz button*/
+
 .quizbox{
     background-color: #638da6;
     width: 100%;
