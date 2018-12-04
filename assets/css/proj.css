@@ -699,7 +699,7 @@ h2{
 }
 
 #sec2{
-    height: 65%;
+    height: 100%;
 }
 
 #sec3{
@@ -770,31 +770,37 @@ h2{
 }
 
 .right{
-    display: flex;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     padding-right: 20px;
+    padding-left: 1em;
 }
 
 .right ul{
+    display: table-cell;
     margin: 0;
     padding: 0;
     list-style: url(../images/square_bullets.png);
 }
 
-.right ul div{
-    margin: 2em 0;
+#left-list{
+    display: table-cell;
 }
 
-.right ul p{
-    width: 75%;
+#right-list{
+    display: table-cell;
 }
 
 .right ul li{
-    font-size: 1.5em;
+/*    font-size: 1.5em;*/
     font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    color: #638da6;
+    font-weight: 100;
+    margin: .5em 1em;
 }
 
 .right p{
@@ -843,10 +849,42 @@ footer p{
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .container a img{
         width: 15em;
         height: auto;
+    }
+    
+/*    //change index display*/
+    #sec2{
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    #sec2 .left{
+        width: 100%;
+        height: auto;
+    }
+    
+    #sec2 .leftcontent{
+        padding-top: 1em;
+    }
+    
+    #sec2 .left .mini{
+        text-align: center;
+        margin-bottom: .5em;
+    }
+    
+    #sec2 .left .download{
+        text-align: center;
+    }
+    
+    #sec2 .right{
+        width: 95%;
+        margin: 0;
+        padding: 0;
     }
 }
 
