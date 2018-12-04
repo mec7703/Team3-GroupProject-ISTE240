@@ -48,8 +48,9 @@
     <div class="parallax" id="parallax2">
         <!--space holder-->
     </div>
-	<footer>
-        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
-    </footer>
+	<?php 
+	$filename = "contact.php";
+	require "assets/inc/footer.php";
+	>
 </body>
 </html>
