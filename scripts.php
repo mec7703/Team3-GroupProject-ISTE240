@@ -95,6 +95,9 @@
     showSlides(0,1,4,'scriptIndex');
 
 </script>
-    
+    <?php 
+        $filename = "scripts.php";
+        require "assets/inc/footer.php";
+    ?>
 </body>
 </html>
