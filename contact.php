@@ -48,9 +48,11 @@
     <div class="parallax" id="parallax2">
         <!--space holder-->
     </div>
+	
 	<?php 
 	$filename = "contact.php";
 	require "assets/inc/footer.php";
-	>
+	?>
+	<script src="assets/script/sidemenu.js"></script>
 </body>
 </html>
