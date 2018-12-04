@@ -50,9 +50,10 @@
     </div>
  	
     </div>
-    <?php 
-	$filename = "about.php";
-	require "assets/inc/footer.php";
+	<?php 
+        $filename = "about.php";
+        require "assets/inc/footer.php";
     ?>
+    <script src="assets/script/sidemenu.js"></script>
   </body>
 </html>
