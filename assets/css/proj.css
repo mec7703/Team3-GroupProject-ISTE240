@@ -51,12 +51,27 @@ textarea{
   display: grid;
   grid-template-columns: auto auto auto;
   background-color:  white;
+  color: dimgray;
+  text-align: center;
 }
-.grid-item1 {
+
+#question{
+    margin-left: 1em;
+}
+
+#grid-item1 {
   background-color: #e0eaf0;
   padding: 20px;
-    color: dimgray;
-    text-align: center;
+}
+
+#grid-item2 {
+  background-color: white;
+  padding: 20px;
+}
+
+#grid-item3 {
+  background-color: white;
+  padding: 20px;
 }
 
 .review{
@@ -66,6 +81,10 @@ textarea{
 
 .review h4{
     text-align: left;
+}
+
+#reviewAns{
+    margin-left: 1em;
 }
 
 .row2 {
