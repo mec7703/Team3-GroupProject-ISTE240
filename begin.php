@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Linux</title>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/proj.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/css/videoSlide.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="assets/script/videoSlide.js"></script>
-    
-</head>
+<?php require "assets/inc/head.html"; ?>
 <body>
 <header>
     <?php require "assets/inc/navbar.html"; ?>
@@ -213,8 +202,11 @@
             <a class="next" onclick="showSlides(1, 14, 16, 'misIndex')">&#10095;</a>
         </div>
     </div><!-- end column div -->
-</div><!-- end row div -->
- </div>
+</div><!-- end row div --> 
+    <div id="takeQuiz">
+        <h3><a href="quiz.php">Test Your Knowledge</a></h3>
+    </div>
+</div>
 <script>
     showSlides(0,1,3,'navIndex');
     showSlides(0,4,7,'manIndex');
@@ -222,10 +214,10 @@
     showSlides(0,11,13,'keyIndex');
     showSlides(0,14,16,'misIndex');
 </script>
-    <script src="assets/script/sidemenu.js"></script>
-    <<?php 
+    <?php 
         $filename = "begin.php";
         require "assets/inc/footer.php";
     ?>
+    <script src="assets/script/sidemenu.js"></script>
 </body>
 </html>
