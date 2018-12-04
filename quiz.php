@@ -1,16 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Linux</title>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="assets/css/proj.css" />
-    
-    <script src="assets/script/quiz.js"></script>
-</head>
+<?php require "assets/inc/head.html"; ?>
 <body>
 	<header><?php require "assets/inc/navbar.html"; ?></header>
     
