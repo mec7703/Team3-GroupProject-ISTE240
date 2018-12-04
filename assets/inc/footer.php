@@ -1,24 +1,11 @@
- <!-- 
-    Name: Matthew Rutter
-    Date: 11/7/18 -->
-
-<footer> 
-
-        <p id="company_name">Team 3 Final Project &reg;</p>
-
-
+<footer>
+    <p>
+        @2018 Team 3 Final Project | 
         <?php
-
-        $filename = 'orderprocess.php';
-        if (file_exists($filename))
-        {
-            echo "Last modified: " . date("l, F d Y H:i:s.", filemtime($filename));
-        }
-
+            if (file_exists($filename))
+            {
+                echo "Last modified: " . date("F d Y H:i:s.", filemtime($filename));
+            }
         ?>
-
-    </footer>
-
-    </div> <!-- end wrapper -->
-</body>
-</html>
+    </p>
+</footer>
