@@ -4,7 +4,7 @@ function checkAns(){
     var key = document.getElementById('question').innerHTML;
     key = key.trim();
     var correctAns = quiz[key];
-    var givenAns = document.getElementById('answer').value;
+    var givenAns = document.getElementById('answer').value.trim();
     if(correctAns===givenAns){
         document.getElementById('correct').style.display = "block";
     }else{
