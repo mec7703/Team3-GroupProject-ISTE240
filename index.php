@@ -28,28 +28,28 @@
         </div>
         <div class="right">
             <ul id="left-list">
-                <div>
-                    <li>ABOUT</li>
-                    <p>Learn about what Linux is, its purpose and its different components</p>
-                </div>
-                <div>
-                    <li>BUILD SCRIPTS</li>
-                    <p>Learn what it is and how to create your own</p>
-                </div>
-                <div>
-                    <li>CONTACT</li>
-                    <p>Submit questions and join the forum</p>
-                </div>
+                <li><a href="about.php">ABOUT</a></li>
+                    <ul style="list-style: none;">
+                        <li>Learn about what Linux is, its purpose and its different components</li>
+                    </ul>
+                <li><a href="scripts.php">BUILD SCRIPTS</a></li>
+                    <ul style="list-style: none;">
+                        <li>Learn what it is and how to create your own</li>
+                    </ul>
+                <li><a href="contact.php">CONTACT</a></li>
+                    <ul style="list-style: none;">
+                        <li>Submit questions and join the forum</li>
+                </ul>
             </ul>            
             <ul id="right-list">
-                <div>
-                    <li>COMMAND TUTORIALS</li>
-                    <p>Learn and then test your knwoledge on Linux commands</p>
-                </div>
-                <div>
-                    <li>DISTRIBUTIONS</li>
-                    <p>Know your options and pick the one that's right for you </p>
-                </div>
+                <li><a href="begin.php">COMMAND TUTORIALS</a></li>
+                    <ul style="list-style: none;">
+                        <li>Learn and then test your knwoledge on Linux commands</li>
+                </ul>
+                <li><a href="distributions.php">DISTRIBUTIONS</a></li>
+                    <ul style="list-style: none;">
+                        <li>Know your options and pick the one that's right for you </li>
+                </ul>
             </ul>
         </div>
     </div>
