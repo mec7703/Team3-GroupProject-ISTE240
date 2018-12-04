@@ -1,30 +1,27 @@
-
 var questionNum = 1;
 
 function checkAns(){
     var key = document.getElementById('question').innerHTML;
+    key = key.trim();
     var correctAns = quiz[key];
     var givenAns = document.getElementById('answer').value;
-	console.log(key);
-	console.log(givenAns);
-	console.log(correctAns);
     if(correctAns===givenAns){
-		console.log("correct");
         document.getElementById('correct').style.display = "block";
     }else{
-		console.log("wrong");
+        document.getElementById('reviewAns').innerHTML = "Incorrect: The correct answer is " + correctAns;
         document.getElementById('incorrect').style.display = "block";
 	}
 	delete quiz[key];
     
-//    console.log(questionNum);
     if (questionNum != 3){
         //this was not the last question, show next button
         document.getElementById("next").style.display = "inline";
     }else{
-        console.log("question 3");
         document.getElementById("retry").style.display = "inline";
     }
+    
+    //remove check answer button
+    document.getElementById("checkAns").style.display = "none";
 }
 
 function next(){
@@ -61,7 +58,9 @@ function next(){
 	//fill new question
 	var next = Object.keys(quiz);
 	document.getElementById("question").innerHTML = next[0];
-	document.getElementById("correctAns").innerHTML = quiz[next[0]];
+	correctAns = quiz[next[0]];
+    //show check answer button
+    document.getElementById("checkAns").style.display = "inline";
 }
 
 function retry(){
