@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Linux</title>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/proj.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/css/videoSlide.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="assets/script/videoSlide.js"></script>
-    <script>
-        var scriptIndex = 1;
-    </script>
-</head>
+<?php require "assets/inc/head.html"; ?>
 <body>
+<script>
+    var scriptIndex = 1;
+</script>
 <header>
     <?php require "assets/inc/navbar.html"; ?>
     
