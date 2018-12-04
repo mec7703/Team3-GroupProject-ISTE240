@@ -118,8 +118,9 @@
     <div class="section" id="sec4">
         <a href="#">Back to Top &#8593;</a>
     </div>
-    <footer>
-        <p>@2003 Team 3 Final Project | Web and Mobile II</p>
-    </footer>
+    <?php 
+        $filename = "index.php";
+        require "assets/inc/footer.php";
+    ?>
 </body>
 </html>
